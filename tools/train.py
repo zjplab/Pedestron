@@ -4,11 +4,11 @@ import argparse
 import os
 from mmcv import Config
 
-from mmdet import __version__
-from mmdet.datasets import build_dataset
-from mmdet.apis import (train_detector, init_dist, get_root_logger,
+from mmdetection import __version__
+from mmdetection.datasets import build_dataset
+from mmdetection.apis import (train_detector, init_dist, get_root_logger,
                         set_random_seed)
-from mmdet.models import build_detector
+from mmdetection.models import build_detector
 import torch
 
 

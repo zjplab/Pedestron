@@ -9,7 +9,7 @@ import torch
 
 from mmcv.runner import hooks
 from mmcv.runner.log_buffer import LogBuffer
-from mmdet.core.my_mmcv.runner.hooks.mean_teacher_optimizer import OptimizerHook
+from mmdetection.core.my_mmcv.runner.hooks.mean_teacher_optimizer import OptimizerHook
 from mmcv.runner.hooks import (Hook, LrUpdaterHook, CheckpointHook, IterTimerHook, lr_updater)
 from mmcv.runner.checkpoint import load_checkpoint, save_checkpoint
 from mmcv.runner.priority import get_priority

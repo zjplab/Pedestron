@@ -11,7 +11,7 @@ import glob
 import json
 import mmcv
 
-from mmdet.apis import inference_detector, init_detector, show_result
+from mmdetection.apis import inference_detector, init_detector, show_result
 
 
 def parse_args():

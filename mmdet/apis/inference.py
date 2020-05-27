@@ -6,10 +6,10 @@ import pycocotools.mask as maskUtils
 import torch
 from mmcv.runner import load_checkpoint
 
-from mmdet.core import get_classes
-from mmdet.datasets import to_tensor
-from mmdet.datasets.transforms import ImageTransform
-from mmdet.models import build_detector
+from mmdetection.core import get_classes
+from mmdetection.datasets import to_tensor
+from mmdetection.datasets.transforms import ImageTransform
+from mmdetection.models import build_detector
 
 
 def init_detector(config, checkpoint=None, device='cuda:0'):

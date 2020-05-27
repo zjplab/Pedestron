@@ -1,6 +1,6 @@
 import copy
 
-from mmdet.utils import build_from_cfg
+from mmdetection.utils import build_from_cfg
 from .dataset_wrappers import ConcatDataset, RepeatDataset
 from .registry import DATASETS
 

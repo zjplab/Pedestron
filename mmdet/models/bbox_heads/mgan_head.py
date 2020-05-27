@@ -2,7 +2,7 @@ import torch.nn as nn
 
 from ..registry import HEADS
 from ..utils import ConvModule
-from mmdet.core import auto_fp16
+from mmdetection.core import auto_fp16
 
 
 @HEADS.register_module

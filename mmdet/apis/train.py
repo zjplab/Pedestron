@@ -4,16 +4,16 @@ import re
 from collections import OrderedDict
 
 import torch
-from mmdet.core.my_mmcv.runner.mean_teacher_runner import Mean_teacher_Runner as Runner
+from mmdetection.core.my_mmcv.runner.mean_teacher_runner import Mean_teacher_Runner as Runner
 from mmcv.runner import DistSamplerSeedHook, obj_from_dict
 from mmcv.parallel import MMDataParallel, MMDistributedDataParallel
 
-from mmdet import datasets
-from mmdet.core import (DistOptimizerHook, DistEvalmAPHook,
+from mmdetection import datasets
+from mmdetection.core import (DistOptimizerHook, DistEvalmAPHook,
                         CocoDistEvalRecallHook, CocoDistEvalmAPHook,
                         Fp16OptimizerHook)
-from mmdet.datasets import build_dataloader
-from mmdet.models import RPN
+from mmdetection.datasets import build_dataloader
+from mmdetection.models import RPN
 from .env import get_root_logger
 
 

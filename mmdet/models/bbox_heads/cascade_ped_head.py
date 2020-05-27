@@ -9,7 +9,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from mmdet.core import (delta2bbox, multiclass_nms, bbox_target, force_fp32,
+from mmdetection.core import (delta2bbox, multiclass_nms, bbox_target, force_fp32,
                         auto_fp16)
 from ..builder import build_loss
 from ..losses import accuracy
